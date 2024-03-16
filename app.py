@@ -4,7 +4,7 @@ from joblib import load
 
 # Load the saved XGBoost model
 
-model = load(r'models\xgboost_classifer.clf')
+model = load('models/xgboost_classifer.clf')
 
 
 # Function to preprocess user inputs
